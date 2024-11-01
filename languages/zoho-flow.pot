@@ -1,0 +1,732 @@
+# Copyright (C) 2023 Zoho Flow
+# This file is distributed under the same license as the Zoho Flow plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Zoho Flow 1.4.4\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/zoho-flow-for-wordpress\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-05-15T08:22:02+02:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: zoho-flow\n"
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+#: admin/admin.php:21
+#: admin/admin.php:22
+#: admin/admin.php:42
+#: admin/admin.php:176
+msgid "Zoho Flow"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://www.zoho.com/flow/?utm_source=wordpress&utm_campaign=plugin-uri&utm_medium=link"
+msgstr ""
+
+#. Description of the plugin
+msgid "Zoho Flow helps you integrate your favorite Wordpress plugins with hundreds of popular business apps like Zoho CRM, Mailchimp, HubSpot, and Eventbrite. Save hours of time at work by automatically syncing data between the plugins and the apps you use."
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.zoho.com/flow/?utm_source=wordpress&utm_campaign=author-uri&utm_medium=link"
+msgstr ""
+
+#. translators: 1: Zoho Flow 2:: five stars
+#: admin/admin.php:41
+msgid "If you like %1$s please leave us a %2$s rating. A huge thanks in advance!"
+msgstr ""
+
+#: admin/admin.php:43
+msgid "Thanks :)"
+msgstr ""
+
+#: admin/admin.php:47
+msgid "Thank you for using Zoho Flow."
+msgstr ""
+
+#: admin/admin.php:86
+#: admin/admin.php:121
+#: includes/rest-api.php:26
+msgid "You are not allowed to perform the operation."
+msgstr ""
+
+#: admin/admin.php:90
+msgid "Unable to generate API Key. Please try after refreshing the page."
+msgstr ""
+
+#: admin/admin.php:111
+#: admin/admin.php:151
+msgid "Service not found"
+msgstr ""
+
+#: admin/admin.php:125
+msgid "Unable to remove API Key. Please try after refreshing the page."
+msgstr ""
+
+#: admin/admin.php:129
+msgid "Invalid API Key ID provided"
+msgstr ""
+
+#: admin/admin.php:147
+msgid "Removed API key successfully"
+msgstr ""
+
+#: admin/admin.php:178
+msgid "Integrate your favourite WordPress plugins with hundreds of business apps"
+msgstr ""
+
+#: admin/admin.php:186
+msgid "It appears that permalink has not been enabled for this site. For this plugin to work properly, you need to enable permalinks. "
+msgstr ""
+
+#: admin/admin.php:195
+msgid "This plugin needs to call external url for its functionality. However, it did not work due to the below error."
+msgstr ""
+
+#. translators: %s refers to the minimum TLS version
+#: admin/admin.php:211
+msgid "This plugins requires at least %s to work properly. Kindly upgrade the TLS version of your wordpress setup."
+msgstr ""
+
+#: admin/admin.php:243
+msgid "Supported Plugins"
+msgstr ""
+
+#: admin/admin.php:244
+msgid "Automate workflows between these WordPress plugins and other apps you use"
+msgstr ""
+
+#: admin/admin.php:255
+msgid "About Zoho Flow"
+msgstr ""
+
+#: admin/admin.php:258
+msgid "Features"
+msgstr ""
+
+#: admin/admin.php:259
+msgid "App gallery"
+msgstr ""
+
+#: admin/admin.php:260
+msgid "Help"
+msgstr ""
+
+#: admin/admin.php:261
+msgid "Pricing"
+msgstr ""
+
+#: admin/admin.php:275
+msgid "Didn’t find an app or plugin?"
+msgstr ""
+
+#: admin/admin.php:276
+msgid "Are we missing any important apps or plugins you use? Let us know and we’ll try our best to add them."
+msgstr ""
+
+#: admin/admin.php:277
+msgid "Request app / plugin"
+msgstr ""
+
+#: admin/admin.php:288
+msgid "The plugin was not found!"
+msgstr ""
+
+#: admin/admin.php:295
+#: admin/admin.php:383
+msgid "Generate"
+msgstr ""
+
+#: admin/admin.php:296
+msgid "Ok"
+msgstr ""
+
+#: admin/admin.php:310
+msgid "Generating API key..."
+msgstr ""
+
+#: admin/admin.php:314
+msgid "Copy the API key and keep it safe. The API key cannot be retrieved again."
+msgstr ""
+
+#: admin/admin.php:334
+msgid "Back"
+msgstr ""
+
+#: admin/admin.php:346
+msgid "API Keys"
+msgstr ""
+
+#: admin/admin.php:347
+#: admin/admin.php:383
+msgid "Generate new API key"
+msgstr ""
+
+#: admin/admin.php:347
+msgid "+ New API Key"
+msgstr ""
+
+#. translators: %s refers to the plugin name
+#: admin/admin.php:352
+msgid "You can use any of the active API keys to allow Zoho Flow integrate %s with other apps. Generate one if you don't have any."
+msgstr ""
+
+#. translators: %s refers to the plugin name
+#: admin/admin.php:377
+msgid "How to integrate %s with other apps via Zoho Flow?"
+msgstr ""
+
+#: admin/admin.php:380
+msgid "Step 1"
+msgstr ""
+
+#: admin/admin.php:381
+msgid "Register"
+msgstr ""
+
+#: admin/admin.php:381
+msgid " for an account in Zoho Flow or login if you already have one."
+msgstr ""
+
+#: admin/admin.php:382
+msgid "Step 2"
+msgstr ""
+
+#: admin/admin.php:383
+msgid " an API Key for the plugin. Keep it safe, as it cannot be retrieved again."
+msgstr ""
+
+#: admin/admin.php:384
+msgid "Step 3"
+msgstr ""
+
+#: admin/admin.php:385
+msgid "Go to Zoho Flow and create a new flow. Each plugin supports certain triggers/actions. Pick the one you want to use in the automation."
+msgstr ""
+
+#: admin/admin.php:386
+msgid "Step 4"
+msgstr ""
+
+#. translators: %s refers to the plugin name
+#: admin/admin.php:390
+msgid "When you create a connection for %s, use the generated API key."
+msgstr ""
+
+#: admin/admin.php:393
+msgid "Step 5"
+msgstr ""
+
+#: admin/admin.php:394
+msgid "Add the base URL which is the part of the URL as instructed in Flow."
+msgstr ""
+
+#: admin/admin.php:395
+msgid "Step 6"
+msgstr ""
+
+#: admin/admin.php:396
+msgid "Configure the trigger/action you wish to add."
+msgstr ""
+
+#: admin/admin.php:399
+msgid "Note: Zoho Flow supports certain triggers/actions which you can use for your use case. Write to <a href=\"mailto:support@zohoflow.com\">support@zohoflow.com</a> if you want to see any different trigger/action in a plugin."
+msgstr ""
+
+#. translators; %s refers to the plugin name
+#: admin/admin.php:407
+msgid "%s integrations"
+msgstr ""
+
+#: includes/zoho-flow-service.php:152
+msgid "The webhook is not found."
+msgstr ""
+
+#: includes/zoho-flow-service.php:157
+msgid "The webhook could not be deleted."
+msgstr ""
+
+#: includes/zoho-flow-service.php:172
+msgid "You cannot create more than 10 API keys"
+msgstr ""
+
+#: includes/zoho-flow-service.php:193
+msgid "You are not authorized to remove the API key."
+msgstr ""
+
+#: includes/zoho-flow-service.php:196
+msgid "The API key is not found."
+msgstr ""
+
+#: includes/zoho-flow-service.php:201
+msgid "The API key could not be removed."
+msgstr ""
+
+#: includes/zoho-flow-service.php:272
+msgid "You are not authorized to access the API."
+msgstr ""
+
+#. translators: %s refers to the plugin name
+#: includes/zoho-flow-services.php:138
+msgid "Edit %s"
+msgstr ""
+
+#: integrations.php:11
+msgid "Connect WordPress.org to Zoho Flow to automatically post your new WordPress posts on your social media handles such as Twitter, get notifications in your team chat for new posts, and create posts for new events scheduled in your event management app."
+msgstr ""
+
+#: integrations.php:229
+msgid "Create forms in Contact Form 7 to collect contacts, feedback, or orders. Then integrate Contact Form 7 with other apps using Zoho Flow to store, share, and analyze your form submissions automatically."
+msgstr ""
+
+#: integrations.php:285
+msgid "Utilize WPForms’s drag-and-drop form builder to create customizable forms for subscriptions, payments, and lead generation. Connect it to Zoho Flow to automatically add your subscriber information to your email marketing platform, add your payment data as new rows in your spreadsheet, and much more."
+msgstr ""
+
+#: integrations.php:341
+msgid "Ninja Forms is a beginner-friendly form builder plugin that also provides conditional logic, multistep forms, and file uploads. Integrate Ninja Forms with your favorite apps to get instant notifications in your team chat app, create tasks in your project management application, or add leads to your CRM for new form submissions."
+msgstr ""
+
+#: integrations.php:390
+msgid "Build a simple contact form or complex multipage form with conditional logic, calculations, file uploads, and more, using Formidable Forms. You can then integrate it with other apps to automatically upload the forms to your team’s cloud drive, send new submissions to your team’s chat channel, or add contacts to your CRM."
+msgstr ""
+
+#: integrations.php:440
+msgid "Everest Forms is a drag-and-drop form builder plugin that’s lightweight, fast, and mobile responsive. Automatically create calendar events from new form submissions, add subscribers to your mailing list, create tickets for complaints received, and more, using Zoho Flow."
+msgstr ""
+
+#: integrations.php:490
+msgid "Elementor’s intuitive website builder and 100+ predesigned templates and blocks make it easy to build great websites. Integrate it with your favorite apps, and you can automatically send, store, and analyze form responses, contacts, and feedback."
+msgstr ""
+
+#: integrations.php:539
+msgid "Ultimate Member’s WordPress plugin makes it a breeze for users to sign up and become members of your website. Easily manage your forms by automating follow-ups for form submissions, contact management, cloud storage, and more, using Zoho Flow."
+msgstr ""
+
+#: integrations.php:594
+msgid "This easy-to-use membership plugin for WordPress lets you build your own automated membership site. Let Zoho Flow automatically add new orders to your spreadsheet, notify you by chat when a new order is made, create new orders from emails received, and more."
+msgstr ""
+
+#: integrations.php:653
+msgid "LearnDash helps you better sell your online courses by providing multiple pricing models, payment gateways, and automatic renewal notifications. Use Zoho Flow to automatically add new users enrolled in your course to your CRM, send customized emails to users who’ve completed quizzes, add users to a specific group, and more."
+msgstr ""
+
+#: integrations.php:824
+msgid "PlanSo Forms’s intuitive and user-friendly interface, added with features like auto-responder emails and integrated spam protection, makes it easy to build amazing forms for your WordPress site. Manage form submissions and analyze data efficiently by automatically moving data between your apps using Zoho Flow."
+msgstr ""
+
+#: integrations.php:871
+msgid "Simple Membership Plugin is a flexible, well-supported, and easy-to-use WordPress membership plugin for offering free and premium content from your WordPress site. With various membership access levels, you can also selectively protect the articles, posts, and pages on your site."
+msgstr ""
+
+#: integrations.php:965
+msgid "Advanced Custom Fields (ACF) is a WordPress plugin that allows you to add extra content fields to your WordPress sites. Allow Zoho Flow to automatically send notifications, add lead data in your CRM, or save website form submissions when values are entered into your ACF custom fields."
+msgstr ""
+
+#: integrations/advanced-custom-fields/advanced-custom-fields.php:170
+#: integrations/contact-form-7/contact-form-7.php:231
+#: integrations/digi-member/digi-member.php:84
+#: integrations/everest-forms/everest-forms.php:233
+#: integrations/formidable-forms/formidable-forms.php:189
+#: integrations/learndash/learndash.php:1019
+#: integrations/ninja-forms/ninja-forms.php:163
+#: integrations/wpforms/wpforms.php:286
+msgid "The webhook ID is invalid."
+msgstr ""
+
+#: integrations/contact-form-7/contact-form-7.php:47
+msgid "ID of the Contact Form 7 form."
+msgstr ""
+
+#: integrations/contact-form-7/contact-form-7.php:53
+msgid "The title of the Contact Form 7 form."
+msgstr ""
+
+#: integrations/contact-form-7/contact-form-7.php:67
+#: integrations/contact-form-7/contact-form-7.php:157
+#: integrations/contact-form-7/contact-form-7.php:195
+#: integrations/contact-form-7/contact-form-7.php:221
+#: integrations/everest-forms/everest-forms.php:66
+#: integrations/everest-forms/everest-forms.php:159
+#: integrations/everest-forms/everest-forms.php:197
+#: integrations/everest-forms/everest-forms.php:223
+#: integrations/formidable-forms/formidable-forms.php:48
+#: integrations/formidable-forms/formidable-forms.php:115
+#: integrations/formidable-forms/formidable-forms.php:153
+#: integrations/formidable-forms/formidable-forms.php:179
+#: integrations/learndash/learndash.php:964
+#: integrations/learndash/learndash.php:1035
+#: integrations/ninja-forms/ninja-forms.php:63
+#: integrations/ninja-forms/ninja-forms.php:91
+#: integrations/ninja-forms/ninja-forms.php:127
+#: integrations/ninja-forms/ninja-forms.php:153
+#: integrations/wpforms/wpforms.php:66
+#: integrations/wpforms/wpforms.php:208
+#: integrations/wpforms/wpforms.php:247
+#: integrations/wpforms/wpforms.php:276
+msgid "The form ID is invalid."
+msgstr ""
+
+#: integrations/contact-form-7/contact-form-7.php:72
+#: integrations/contact-form-7/contact-form-7.php:162
+#: integrations/contact-form-7/contact-form-7.php:200
+#: integrations/contact-form-7/contact-form-7.php:226
+#: integrations/elementor/elementor.php:67
+#: integrations/elementor/elementor.php:93
+#: integrations/elementor/elementor.php:127
+#: integrations/elementor/elementor.php:151
+#: integrations/everest-forms/everest-forms.php:71
+#: integrations/everest-forms/everest-forms.php:164
+#: integrations/everest-forms/everest-forms.php:202
+#: integrations/everest-forms/everest-forms.php:228
+#: integrations/formidable-forms/formidable-forms.php:53
+#: integrations/formidable-forms/formidable-forms.php:120
+#: integrations/formidable-forms/formidable-forms.php:158
+#: integrations/formidable-forms/formidable-forms.php:184
+#: integrations/ninja-forms/ninja-forms.php:68
+#: integrations/ninja-forms/ninja-forms.php:96
+#: integrations/ninja-forms/ninja-forms.php:132
+#: integrations/ninja-forms/ninja-forms.php:158
+#: integrations/planso-forms/planso-forms.php:101
+#: integrations/planso-forms/planso-forms.php:134
+#: integrations/ultimate-member/ultimate-member.php:69
+#: integrations/ultimate-member/ultimate-member.php:96
+#: integrations/ultimate-member/ultimate-member.php:133
+#: integrations/ultimate-member/ultimate-member.php:158
+#: integrations/wpforms/wpforms.php:71
+#: integrations/wpforms/wpforms.php:212
+#: integrations/wpforms/wpforms.php:252
+#: integrations/wpforms/wpforms.php:281
+msgid "The form is not found."
+msgstr ""
+
+#: integrations/contact-form-7/contact-form-7.php:121
+#: integrations/everest-forms/everest-forms.php:123
+#: integrations/formidable-forms/formidable-forms.php:79
+msgid "Unique name of the field."
+msgstr ""
+
+#: integrations/contact-form-7/contact-form-7.php:127
+#: integrations/everest-forms/everest-forms.php:129
+#: integrations/formidable-forms/formidable-forms.php:85
+#: integrations/wpforms/wpforms.php:172
+msgid "Label of the field."
+msgstr ""
+
+#: integrations/contact-form-7/contact-form-7.php:132
+#: integrations/everest-forms/everest-forms.php:134
+#: integrations/formidable-forms/formidable-forms.php:90
+#: integrations/wpforms/wpforms.php:177
+msgid "Type of the field."
+msgstr ""
+
+#: integrations/contact-form-7/contact-form-7.php:137
+#: integrations/everest-forms/everest-forms.php:139
+#: integrations/formidable-forms/formidable-forms.php:95
+msgid "Options of a dropdown/multiselect/checkbox/radio field."
+msgstr ""
+
+#: integrations/contact-form-7/contact-form-7.php:142
+#: integrations/everest-forms/everest-forms.php:144
+#: integrations/formidable-forms/formidable-forms.php:100
+#: integrations/wpforms/wpforms.php:182
+msgid "Whether the field is mandatory."
+msgstr ""
+
+#: integrations/contact-form-7/contact-form-7.php:251
+#: integrations/elementor/elementor.php:173
+#: integrations/everest-forms/everest-forms.php:253
+#: integrations/formidable-forms/formidable-forms.php:209
+#: integrations/ninja-forms/ninja-forms.php:183
+#: integrations/ultimate-member/ultimate-member.php:184
+#: integrations/wpforms/wpforms.php:306
+msgid "Unique id of the webhook."
+msgstr ""
+
+#: integrations/contact-form-7/contact-form-7.php:257
+#: integrations/elementor/elementor.php:179
+#: integrations/everest-forms/everest-forms.php:259
+#: integrations/formidable-forms/formidable-forms.php:215
+#: integrations/ninja-forms/ninja-forms.php:189
+#: integrations/ultimate-member/ultimate-member.php:190
+#: integrations/wpforms/wpforms.php:312
+msgid "Unique id of the form."
+msgstr ""
+
+#: integrations/contact-form-7/contact-form-7.php:263
+#: integrations/elementor/elementor.php:185
+#: integrations/everest-forms/everest-forms.php:265
+#: integrations/formidable-forms/formidable-forms.php:221
+#: integrations/ninja-forms/ninja-forms.php:195
+#: integrations/ultimate-member/ultimate-member.php:196
+#: integrations/wpforms/wpforms.php:318
+msgid "The webhook URL."
+msgstr ""
+
+#: integrations/contact-form-7/contact-form-7.php:277
+msgid "The requested file name is invalid."
+msgstr ""
+
+#: integrations/contact-form-7/contact-form-7.php:282
+msgid "The requested file could not be found."
+msgstr ""
+
+#: integrations/elementor/elementor.php:36
+msgid "ID of the Elementor Form."
+msgstr ""
+
+#: integrations/elementor/elementor.php:42
+msgid "The title of the Elementor Form."
+msgstr ""
+
+#: integrations/elementor/elementor.php:47
+msgid "The Post Id of the Elementor Form."
+msgstr ""
+
+#: integrations/everest-forms/everest-forms.php:46
+msgid "ID of the Everest Forms form."
+msgstr ""
+
+#: integrations/everest-forms/everest-forms.php:52
+msgid "The title of the Everest Forms form."
+msgstr ""
+
+#: integrations/formidable-forms/formidable-forms.php:28
+msgid "ID of the Formidable form."
+msgstr ""
+
+#: integrations/formidable-forms/formidable-forms.php:34
+msgid "The title of the Formidable form."
+msgstr ""
+
+#: integrations/learndash/learndash.php:294
+#: integrations/learndash/learndash.php:321
+msgid "Unique identifier for the object."
+msgstr ""
+
+#: integrations/learndash/learndash.php:300
+#: integrations/learndash/learndash.php:327
+msgid "URL to the object."
+msgstr ""
+
+#: integrations/learndash/learndash.php:305
+#: integrations/learndash/learndash.php:332
+msgid "The title for the object."
+msgstr ""
+
+#: integrations/learndash/learndash.php:348
+#: integrations/wordpress-org/wordpress-org.php:725
+msgid "User Id"
+msgstr ""
+
+#: integrations/learndash/learndash.php:353
+#: integrations/wordpress-org/wordpress-org.php:730
+msgid "User login"
+msgstr ""
+
+#: integrations/learndash/learndash.php:359
+#: integrations/wordpress-org/wordpress-org.php:736
+msgid "User email"
+msgstr ""
+
+#: integrations/learndash/learndash.php:364
+#: integrations/wordpress-org/wordpress-org.php:741
+msgid "User registered date"
+msgstr ""
+
+#: integrations/learndash/learndash.php:370
+#: integrations/wordpress-org/wordpress-org.php:747
+msgid "Display Name"
+msgstr ""
+
+#: integrations/learndash/learndash.php:375
+#: integrations/wordpress-org/wordpress-org.php:708
+#: integrations/wordpress-org/wordpress-org.php:752
+msgid "Comment count"
+msgstr ""
+
+#: integrations/learndash/learndash.php:380
+#: integrations/wordpress-org/wordpress-org.php:757
+msgid "User role"
+msgstr ""
+
+#: integrations/learndash/learndash.php:684
+#: integrations/learndash/learndash.php:699
+msgid "The course ID is invalid."
+msgstr ""
+
+#: integrations/learndash/learndash.php:773
+msgid "The lesson ID is invalid."
+msgstr ""
+
+#: integrations/learndash/learndash.php:993
+#: integrations/learndash/learndash.php:1066
+msgid "The "
+msgstr ""
+
+#: integrations/ninja-forms/ninja-forms.php:38
+msgid "ID of the Ninja Form."
+msgstr ""
+
+#: integrations/ninja-forms/ninja-forms.php:44
+msgid "The title of the Ninja Form."
+msgstr ""
+
+#: integrations/ninja-forms/ninja-forms.php:49
+msgid "Created Date of the Ninja Form"
+msgstr ""
+
+#: integrations/planso-forms/planso-forms.php:155
+#: integrations/simple-membership/simple-membership.php:275
+#: integrations/wordpress-org/wordpress-org.php:21
+#: integrations/wordpress-org/wordpress-org.php:260
+#: integrations/wordpress-org/wordpress-org.php:400
+#: integrations/wordpress-org/wordpress-org.php:424
+#: integrations/wordpress-org/wordpress-org.php:447
+msgid "The post ID is invalid."
+msgstr ""
+
+#: integrations/simple-membership/simple-membership.php:89
+msgid "The Membership id is invalid."
+msgstr ""
+
+#: integrations/simple-membership/simple-membership.php:108
+msgid "The Membership row does not exists."
+msgstr ""
+
+#: integrations/simple-membership/simple-membership.php:141
+msgid "The member already exists."
+msgstr ""
+
+#: integrations/simple-membership/simple-membership.php:167
+#: integrations/simple-membership/simple-membership.php:292
+msgid "The Member ID is invalid."
+msgstr ""
+
+#: integrations/simple-membership/simple-membership.php:175
+msgid "The Member does not exists."
+msgstr ""
+
+#: integrations/simple-membership/simple-membership.php:295
+msgid "The Membership level is invalid."
+msgstr ""
+
+#: integrations/ultimate-member/ultimate-member.php:39
+msgid "ID of the Ultimate Member Form."
+msgstr ""
+
+#: integrations/ultimate-member/ultimate-member.php:45
+msgid "The title of the Ultimate Member Form."
+msgstr ""
+
+#: integrations/ultimate-member/ultimate-member.php:50
+msgid "Created Date of the Ultimate Member Form"
+msgstr ""
+
+#: integrations/ultimate-member/ultimate-member.php:64
+#: integrations/ultimate-member/ultimate-member.php:92
+#: integrations/ultimate-member/ultimate-member.php:127
+#: integrations/ultimate-member/ultimate-member.php:154
+msgid "The Form ID is invalid."
+msgstr ""
+
+#: integrations/ultimate-member/ultimate-member.php:163
+msgid "The Webhook ID is invalid."
+msgstr ""
+
+#: integrations/wordpress-org/wordpress-org.php:139
+msgid "The User ID is invalid."
+msgstr ""
+
+#: integrations/wordpress-org/wordpress-org.php:317
+msgid "The user ID is invalid."
+msgstr ""
+
+#: integrations/wordpress-org/wordpress-org.php:348
+msgid "User Login must not be empty."
+msgstr ""
+
+#: integrations/wordpress-org/wordpress-org.php:428
+msgid "The post is not found."
+msgstr ""
+
+#: integrations/wordpress-org/wordpress-org.php:681
+msgid "Post Id"
+msgstr ""
+
+#: integrations/wordpress-org/wordpress-org.php:686
+msgid "Post Title"
+msgstr ""
+
+#: integrations/wordpress-org/wordpress-org.php:692
+msgid "Content of a Post"
+msgstr ""
+
+#: integrations/wordpress-org/wordpress-org.php:697
+msgid "Created Date of Post"
+msgstr ""
+
+#: integrations/wordpress-org/wordpress-org.php:703
+msgid "Post status"
+msgstr ""
+
+#: integrations/wordpress-org/wordpress-org.php:774
+msgid "Comment Id"
+msgstr ""
+
+#: integrations/wordpress-org/wordpress-org.php:779
+msgid "Comment Post Id"
+msgstr ""
+
+#: integrations/wordpress-org/wordpress-org.php:785
+msgid "Author of the comment"
+msgstr ""
+
+#: integrations/wordpress-org/wordpress-org.php:790
+msgid "Email of the comment author"
+msgstr ""
+
+#: integrations/wordpress-org/wordpress-org.php:796
+msgid "Comment content"
+msgstr ""
+
+#: integrations/wordpress-org/wordpress-org.php:801
+msgid "Commented date"
+msgstr ""
+
+#: integrations/wpforms/wpforms.php:44
+msgid "ID of the form."
+msgstr ""
+
+#: integrations/wpforms/wpforms.php:50
+msgid "The title of the form."
+msgstr ""
+
+#: integrations/wpforms/wpforms.php:166
+msgid "Unique id of the field."
+msgstr ""
+
+#: integrations/wpforms/wpforms.php:187
+msgid "Format of name field"
+msgstr ""
+
+#: integrations/wpforms/wpforms.php:192
+msgid "Choices in a dropdown/multiselect/checkbox/radio field"
+msgstr ""
+
+#: settings.php:39
+msgid "Zoho Flow Webhooks"
+msgstr ""
+
+#: settings.php:40
+msgid "Zoho Flow Webhook"
+msgstr ""
+
+#: settings.php:57
+#: settings.php:58
+msgid "Zoho Flow API Keys"
+msgstr ""

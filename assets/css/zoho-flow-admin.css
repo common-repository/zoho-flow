@@ -1,0 +1,807 @@
+body{
+    background: #ecf4fe url(../images/zoho-flow-bg.svg) no-repeat;
+    background-size: cover;
+}
+
+.zoho-flow-header {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.tablenav{
+    display: none;
+}
+
+.table {
+    overflow: auto;
+}
+
+#menu-management .menu-edit,#menu-settings-column .accordion-container,.comment-ays,.feature-filter,.imgedit-group,.manage-menus,.menu-item-handle,.popular-tags,.stuffbox,.widget-inside,.widget-top,.widgets-holder-wrap,.wp-editor-container,p.popular-tags,table.widefat {
+
+}
+
+.services-list-table{
+    max-height: 860px;
+    border: 1px solid #c3c4c7;
+}
+
+.zoho-flow-plugin-services-table .column-icon_file img
+{
+	width: 48px;
+}
+
+.zoho-flow-plugin-services-table .column-icon_file
+{
+	width: 48px;
+    vertical-align: middle;
+}
+
+.zoho-flow-plugin-services-table .column-name
+{
+	font-weight: bold;
+	vertical-align: middle;
+	width:20%;
+}
+
+.zoho-flow-plugin-services-table a:focus{
+	box-shadow: none;
+}
+
+.zoho-flow-plugin-services-table > tfoot {
+    display: none;
+}
+
+.zoho-flow-plugin-services-table > thead {
+    position: sticky;
+    top: 0px;
+    background: #fff;
+}
+
+.zoho-flow-plugin-services-table > thead > tr > th{
+    font-weight: bold;
+}
+
+.zoho-flow-api-keys-table .column-created_on{
+	width: 100px;
+}
+
+.zoho-flow-api-keys-table .column-actions{
+	width: 48px;
+}
+
+.zoho-flow-api-keys-table .column-api_key{
+	width: 45%;
+}
+
+.zoho-flow-api-keys-table .column-status{
+	width: 80px;
+}
+
+.zoho-flow-api-keys-table > tfoot {
+    display: none;
+}
+
+.zoho-flow-api-keys-table th{
+  font-size: 15px;
+}
+
+.delete-api-key{
+	cursor: pointer;
+	color:#666;
+}
+
+.delete-api-key:hover{
+	color: #000;
+}
+
+.zoho-flow-header{
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.zoho-flow-header .zflow-logo{
+	width: 40px;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+
+.unavailable-zoho-flow-service{
+    max-width: 764px;
+    text-align: center;
+    margin: auto;
+    padding: 5em 0 0;
+}
+
+.plugin-gallery-wrapper{
+	display: -ms-flex;
+	display: -webkit-flex;
+	display: flex;
+	height: auto;
+	flex-direction:row;
+	background: #fff;
+	padding: 20px;
+	overflow: auto;
+}
+
+.plugin-gallery{
+	flex-direction: column;
+	width: 75%;
+}
+
+.plugin-gallery-right-side{
+  display: flex;
+	flex-direction: column;
+	margin-left: 20px;
+	padding: 0 20px;
+	border-left: solid 1px #e8e8e8;
+  max-width: 25%;
+}
+
+.plugin-gallery-right-side a:focus{
+  box-shadow: none;
+}
+
+.flow-gallery-section{
+	border-bottom: solid 1px #e0e0e0;
+}
+
+.why-flow-section{
+	border-bottom: solid 1px #e0e0e0;
+}
+
+.flow-video-section{
+	border-bottom: solid 1px #e0e0e0;
+	padding-bottom: 20px;
+}
+
+.zflow-req-app{
+	border-bottom: solid 1px #e0e0e0;
+}
+
+.why-flow-section .zflow-logo{
+	width: 32px;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+
+.flow-five-years-section{
+  padding-bottom: 20px;
+}
+
+.flow-five-years{
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.flow-five-years img{
+  border-radius: 6px;
+  max-width: 100%;
+}
+
+.flow-social-media-section {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.social-media-icons {
+    display: flex;
+    gap: 12px;
+    padding-left: 12px;
+    height: 20px;
+}
+
+#review_notice a:focus{
+  box-shadow: none;
+}
+
+.service-details-wrapper{
+	margin: 10px 0 0;
+	display: -ms-flex;
+	display: -webkit-flex;
+	display: flex;
+	height:auto;
+	flex-direction:row;
+	border: solid 1px #e5e5e5;
+	background: #fff;
+    padding: 20px;
+    overflow: auto;
+}
+
+.service-details-wrapper a:focus{
+	box-shadow: none;
+}
+
+.service-details-content-wrapper{
+    flex-direction: column;
+    max-width: 70%;
+    background: url(../images/flow-background.svg) no-repeat ;
+	  background-position:bottom right;
+    background-size: 300px 300px;
+}
+
+.service-details-right-panel{
+	flex-direction:column;
+	padding: 0 20px;
+    margin-left: 20px;
+    border-left: solid 1px #e8e8e8;
+    //border: 1px solid #c3c4c7;
+    overflow: auto;
+    max-height: 747px;
+    //box-shadow: 0 8px 16px 0 rgba(85,93,102,.3);
+
+}
+
+.service-details-right-panel > h3{
+    font-size: 17px !important;
+}
+
+.service-details-right-panel > h3{
+    position: sticky;
+    top: 0px;
+    background: #fff;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top:10px;padding-bottom:10px;
+    font-size: 17px !important;
+}
+
+.service-details-right-panel > h4{
+  font-size: 16px !important;
+  margin: 8px 0 !important;
+}
+
+.service-details-right-panel > p{
+  margin: 10px 0 !important;
+  margin-bottom: 20px !important;
+}
+
+.service-details-header-wrapper{
+    padding: 10px;
+}
+
+.service-details-logo-wrapper{
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.service-details-logo{
+    max-height: 46px;
+    width: 46px;
+    padding: 10px;
+    border: solid;
+    border-color: #b8afaf82;
+    border-width: thin;
+    border-radius: 10px;
+    -webkit-box-sizing: content-box;
+    margin-right: 0px;
+    background: white;
+    object-fit: contain;
+}
+
+.service-details-logo-arrow{
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.service-details-title{
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 23px;
+    font-weight: 600;
+    padding: 15px;
+}
+
+.service-details-description{
+    font-size: 17px;
+    line-height: 22px;
+    padding: 10px;
+    padding-top: 5px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    font-weight: 400;
+}
+
+.service-details-wrapper p{
+	font-size: 15px;
+	line-height: 22px;
+}
+
+.plugin-gallery-wrapper p{
+	font-size: 15px;
+	line-height: 22px;
+}
+
+#api-key-span{
+    display: inline-block;
+    padding:6px;
+    background:#f0f0f0;
+    font-size:12px;
+    width: 90%;
+    overflow:auto;
+    white-space: nowrap;
+    border: solid;
+    border-color: #b8afaf;
+    border-width: thin;
+    border-radius: 3px;
+}
+
+#site-url-span{
+    display: inline-block;
+    padding:6px;
+    background:#f0f0f0;
+    font-size:12px;
+    width: 90%;
+    overflow:auto;
+    white-space: nowrap;
+    border: solid;
+    border-color: #b8afaf;
+    border-width: thin;
+    border-radius: 3px;
+}
+
+#copy-sucess{
+    display: none;
+    overflow: auto;
+    color: green;
+    padding: 5px 5px;
+    vertical-align: top;
+}
+
+#copy-api-key{
+	cursor:pointer;
+}
+
+#copy-site-url{
+	cursor:pointer;
+}
+
+#TB_window{
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 10px;
+    top: 40% !important;
+}
+
+#TB_window:has(#TB_iframeContent){
+    width: 0px;
+    height: 10px;
+	  border-radius:0px;
+}
+
+#TB_window:has(#generate-api-key-form){
+    height: auto !important;
+}
+
+#TB_window:has(.service-details-popup){
+    width: 630px !important;
+    margin-left: -315px !important;
+    margin-top: -100px !important;
+    height: auto !important;
+}
+
+#TB_title{
+    border-bottom: none !important;
+    margin-top: 7.5px !important;
+    height: 36px !important;
+}
+
+#TB_window:has(.service-details-popup) #TB_title{
+	height: 20px !important;
+  background: #fff !important;
+}
+
+#TB_ajaxWindowTitle {
+    padding: 0px 0px 7.5px 15px!important;
+    font-size: 16px !important;
+    width: auto !important;
+    font-weight: 800 !important;
+}
+
+#TB_ajaxContent{
+    padding-bottom: 0px;
+    padding: 0px !important;
+    height: auto !important;
+    width: auto!important
+}
+
+#TB_iframeContent{
+     width: calc(100% + 10px - 9.999px) !important;
+}
+
+
+span.tb-close-icon{
+    padding: 0 7.5px 7.5px 7.5px;
+}
+
+#TB_closeWindowButton:focus .tb-close-icon {
+		-webkit-box-shadow:none !important;
+    box-shadow: none !important;
+}
+
+#generate-api-key-form{
+  padding: 12px 0px 15px 15px !important;
+  border-top: dashed;
+  border-color: #b8afaf;
+  width: auto;
+  border-width: thin;
+}
+
+#api-key-div{
+  padding: 12px 0px 15px 15px !important;
+  border-top: dashed;
+  border-color: #b8afaf;
+  width: auto;
+  border-width: thin;
+}
+
+#api-key-div p {
+    margin: 0px;
+}
+
+#api-key-div h3 {
+    margin: 0px 0 !important;
+}
+#api-key-ok-button{
+  padding: 0px !important;
+}
+.zvideo-thumb-wrap {
+    position: relative;
+    border-radius: 6px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.zvideo-thumb-wrap:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 2;
+}
+
+.zvideo-thumb-wrap img {
+    transform: scale(1.5);
+    max-width: 100%;
+}
+
+.flow-webinar-section{
+  border-bottom: solid 1px #e0e0e0;
+	padding-bottom: 20px;
+}
+
+.zwebinar-registration-wrap {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.zvideo-thumb-wrap:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+.zwebinar-registration-wrap img {
+    transform: scale(1);
+    max-width: 100%;
+    border-radius: 6px !important;
+}
+
+.zwebinar-registration-wrap a {
+  text-decoration: none;
+  outline: 0;
+  box-shadow: none;
+}
+
+.zwebinar-registration-wrap a:focus{
+  box-shadow: none;
+}
+
+.zarrow {
+    margin: 25px;
+    display: inline-block;
+    height: 12px;
+    position: absolute;
+    width: 12px;
+    -moz-transform: rotate(315deg);
+    -ms-transform: rotate(315deg);
+    -webkit-transform: rotate(315deg);
+    transform: rotate(315deg);
+    z-index: 11;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.zarrow:before {
+    content: "";
+    position: absolute;
+    background: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    left: auto;
+    top: -13px;
+    right: -16px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+.zarrow::after {
+    content: '';
+    display: inline-block;
+    left: 0;
+    position: absolute;
+    top: 0;
+    border-style: solid;
+    border-width: 0 0 12px 12px;
+    height: 0;
+    width: 0;
+    border-color: transparent;
+    border-bottom-color: #d40505;
+}
+
+.zc-video-modal {
+    position: fixed;
+    margin: 0 auto;
+    width: 70%;
+    height: 70%;
+    background: #fff;
+    overflow: auto;
+    z-index: 9999;
+    display: none;
+}
+
+.zc-video-close {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: url(../images/e-p-sprite.png) 5px -10px no-repeat;
+    top: 15px;
+    right: 20px;
+}
+
+.zc-video-modalInner {
+    max-width: 70%;
+    width: 90%;
+    height: 100%;
+    display: table;
+    table-layout: fixed;
+    margin: 20px auto;
+}
+
+.zc-video-container {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.zc-video-box {
+    width: 100%;
+    position: relative;
+    padding-bottom: 56.25%;
+}
+
+.zf-widget-footer{
+    margin-top: -2px !important;
+}
+
+
+.services-list-grid{
+
+}
+
+.app-list-container{
+    width: calc(100% - 30px);
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row-gap: 0.5em;
+    grid-column-gap: 1em;
+    padding: 15px
+}
+
+.grid-app-wrapper{
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+	margin-right: auto;
+  padding: 30px 0px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.app-list-container .grid-app-wrapper .grid-app-icon img{
+	max-height: 64px;
+  max-width: 64px;
+  object-fit: contain;
+}
+
+.grid-app-wrapper a:focus{
+  text-decoration: none;
+  box-shadow: none;
+}
+
+.app-title{
+  text-decoration: none;
+  font-size: 15px;
+
+}
+
+.grid-app-name {
+    padding-top: 10px;
+}
+
+.grid-app-not-available a .grid-app-name{
+	color:black;
+}
+
+.app-title:focus{
+  box-shadow: none;
+}
+
+/*app details popup*/
+.service-details-popup{
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.service-details-popup-app-icon{
+  padding: 0px 10px 10px 10px;
+}
+.service-details-popup-app-icon img{
+  max-height: 64px;
+  max-width: 64px;
+  object-fit: contain;
+}
+
+.service-details-popup-app-name{
+  padding: 10px;
+  font-size: 25px;
+}
+
+.service-details-popup-app-description{
+  padding: 20px;
+  font-size: 15px;
+  margin-bottom: 15px
+}
+
+.service-details-popup-app-not-available-banner{
+  padding: 10px;
+  font-size: 15px;
+  margin-bottom: 10px;
+  background: #f9bc0b !important;
+  font-weight: 600;
+}
+
+.grid-app-wrapper a {
+    text-decoration: none;
+}
+
+.grid-app-request-icon {
+    width: 64px;
+    height: 64px;
+    font-size: 50px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid;
+    border-color: #b8afaf;
+    border-width: thin;
+    border-radius: 10px;
+    text-decoration: none;
+    vertical-align: middle;
+    line-height: 58px !important;
+    color:black;
+    font-weight: 200;
+    display: flex;
+    justify-content: center;
+}
+
+.plus {
+  --b: 2px; /* the thickness */
+  width: 40px; /* the size */
+  aspect-ratio: 1;
+  border: 10px solid #000; /* the outer space */
+  background:
+    conic-gradient(from 90deg at var(--b) var(--b),#000 90deg,#fff 0)
+    calc(100% + var(--b)/2) calc(100% + var(--b)/2)/
+    calc(50%  + var(--b))   calc(50%  + var(--b));
+  display: inline-block;
+}
+
+.alt {
+  border: none;
+  margin: 20px;
+  background:
+    conic-gradient(from 90deg at var(--b) var(--b),#fff 90deg,#000 0)
+    calc(100% + var(--b)/2) calc(100% + var(--b)/2)/
+    calc(50%  + var(--b))   calc(50%  + var(--b));
+}
+
+#flow-review-notice{
+  display: block;
+}
+
+#permalink-warning-notice{
+  display: block;
+}
+
+#url-call-fail-notice{
+  display: block;
+}
+
+#tls-connection-fail-notice{
+  display: block;
+}
+
+
+#TB_closeWindowButton:focus .tb-close-icon {
+		-webkit-box-shadow:none !important;
+    box-shadow: none !important;
+}
+
+/*For system info */
+
+.system-info-wrapper{
+	margin: 10px 0 0;
+	display: block;
+	height:auto;
+	flex-direction:row;
+	border: solid 1px #e5e5e5;
+	background: #fff;
+  padding: 0px 20px 20px 20px;
+  overflow: auto;
+}
+
+.zoho-flow-site-info-table{
+  font-size: 16px;
+}
+
+.zoho-flow-site-info-table > thead > tr > th{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.zoho-flow-site-info-table > thead > tr > th#name{
+  width: 30%;
+  padding-left: 20px;
+}
+
+.zoho-flow-site-info-table > thead > tr > th#value{
+  padding-left: 20px;
+  border-left: solid 1px #e8e8e8
+}
+
+.zoho-flow-site-info-table > tbody > tr > td{
+  font-size: 15px;
+}
+
+.zoho-flow-site-info-table > tbody > tr > td.name{
+  padding-left: 20px;
+}
+
+.zoho-flow-site-info-table > tbody > tr > td.value{
+  padding-left: 20px;
+  border-left: solid 1px #e8e8e8
+}
+
+.zoho-flow-site-info-table > tfoot {
+  display: none;
+}
+
+.system-info-copy-icon {
+    cursor: pointer;
+}
